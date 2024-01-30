@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Диас Валеев](https://up.htmlacademy.ru/htmlcss/39/user/18719).
-* Наставник: [Кексобот].
+* Наставник: [Кексобот](https://htmlacademy.ru/intensive/htmlcss).
+* Сайт: [Мой проект Седона](https://diazzzff.github.io/18719-sedona-39/).
 
 ---
 
