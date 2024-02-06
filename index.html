@@ -9,7 +9,7 @@
     <header class="header" data-test="header">
       <nav class="nav">
         <a class="nav-logo-link" href="index.html">
-          <img class="nav-logo-img" src="#" alt="Логотип Седона">
+          <img class="nav-logo-img" src="#" alt="Логотип города Седона">
         </a>
 
         <ul class="nav-list">
@@ -36,19 +36,23 @@
               <span class="nav-favorites">12</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link button button-brown" href="#">Хочу сюда!</a>
-          </li>
         </ul>
+
+        <a class="nav-link button button-brown" href="#">Хочу сюда!</a>
       </nav>
     </header>
 
     <main class="main-index" data-test="main">
+      <h1 class="visually-hidden">Город Седона</h1>
+
       <section class="hero" data-test="hero">
-        <h1 class="hero-title">
+        <h2 class="visually-hidden">Кратко о Седоне</h2>
+
+        <img src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <strong class="hero-heading">
           Седона — небольшой городок в Аризоне,
           заслуживающий большего!
-        </h1>
+        </strong>
         <p class="hero-text">
           Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
         </p>
@@ -68,7 +72,7 @@
               туристов, там течёт своя
               жизнь
             </p>
-            <img class="advantages-img" src="#" alt="Город Седона">
+            <img class="advantages-img" src="#" alt="Дома в городе Седона на фоне гор">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">
@@ -101,7 +105,7 @@
             </p>
           </li>
           <li class="advantages-item">
-            <img class="advantages-img" src="#" alt="Мост дьявола">
+            <img class="advantages-img" src="#" alt="Каменный мост через каньон">
             <h3 class="advantages-title">
               Там есть
               мост дьявола
@@ -161,9 +165,9 @@
           Укажите предполагаемые даты поездки,
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <button class="button button-brown" type="button">
+        <a class="search-hotel-link button button-brown" href="#">
           Поиск гостиницы в Седоне
-        </button>
+        </a>
       </section>
 
       <section class="newsletter" data-test="subscribe">
@@ -174,9 +178,10 @@
         </p>
 
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="visually-hidden" for="newsletter-email">Email</label>
-          <input class="newsletter-input" type="email" name="newsletter-email" id="newsletter-email"
-            placeholder="Ваш e-mail" required>
+          <p class="newsletter-form-box">
+            <label class="visually-hidden" for="newsletter-email">Email</label>
+            <input class="newsletter-input" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail" required>
+          </p>
           <button class="newsletter-button button button-blue" type="submit">
             Подписаться
           </button>
