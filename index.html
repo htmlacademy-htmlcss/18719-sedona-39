@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Седона — город в Аризоне</title>
+    <title>HTML Academy: Седона</title>
   </head>
   <body>
     <header class="header" data-test="header">
       <nav class="nav">
-        <a class="nav-logo-link" href="index.html">
-          <img class="nav-logo-img" src="#" alt="Логотип города Седона">
+        <a class="nav-logo-link" href="index.html" aria-current="page">
+          <img class="nav-logo-img" src="#" alt="Логотип сайта о городе Седона">
         </a>
 
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link nav-link-current" href="index.html">Главная</a>
+            <a class="nav-link nav-link-current" href="index.html" aria-current="page">Главная</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">О Седоне</a>
@@ -24,31 +24,31 @@
           </li>
         </ul>
 
-        <ul class="nav-list nav-user">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+        <ul class="nav-user">
+          <li class="nav-user-item">
+            <a class="nav-user-link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span class="visually-hidden">Избранное</span>
-              <span class="nav-favorites">12</span>
+          <li class="nav-user-item">
+            <a class="nav-user-link" href="#">
+              <span class="visually-hidden">Количество гостиниц в избранном</span>
+              <span class="nav-user-favorites">12</span>
             </a>
           </li>
         </ul>
 
-        <a class="nav-link button button-brown" href="#">Хочу сюда!</a>
+        <a class="button button-brown" href="#">Хочу сюда!</a>
       </nav>
     </header>
 
     <main class="main-index" data-test="main">
-      <h1 class="visually-hidden">Город Седона</h1>
+      <h1 class="visually-hidden">Седона — город в Аризоне</h1>
 
       <section class="hero" data-test="hero">
         <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
 
-        <img src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <img class="hero-img" src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
       </section>
 
       <section class="advantages" data-test="advantages">
@@ -121,7 +121,7 @@
       </section>
 
       <section class="services">
-        <h2 class="visually-hidden">Услуги</h2>
+        <h2 class="visually-hidden">Инфраструктура</h2>
 
         <p class="services-heading">
           Приезжайте в Седону отдохнуть
@@ -179,7 +179,7 @@
 
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="newsletter-form-box">
-            <label class="visually-hidden" for="newsletter-email">Email</label>
+            <label class="visually-hidden" for="newsletter-email">Введите ваш email</label>
             <input class="newsletter-input" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail" required>
           </p>
           <button class="newsletter-button button button-blue" type="submit">
@@ -217,7 +217,7 @@
       </a>
 
       <a class="copyright-link" href="https://htmlacademy.ru/">
-        <img class="copyright-logo" src="#" alt="Логотип HTML Academy">
+        <img class="copyright-logo" src="#" alt="Посетить сайт разработчика HTML Academy">
       </a>
     </footer>
   </body>
