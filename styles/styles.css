@@ -56,19 +56,6 @@ img {
   background-color: #7db54f;
 }
 
-.nav-list,
-.nav-user,
-.advantages-list,
-.services-list,
-.social-list,
-.breadcrumbs,
-.filter-form-list,
-.view-list,
-.hotel-list,
-.pagination {
-  list-style: none;
-}
-
 .nav-link,
 .filter-form-title {
   font-size: 20px;
@@ -76,9 +63,21 @@ img {
   font-weight: 700;
 }
 
+.nav-link,
+.nav-user-link,
+.pagination-link {
+  text-decoration: none;
+}
+
 .nav-link {
   color: #000000;
-  text-decoration: none;
+}
+
+.nav-user-favorites {
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  background-color: #7db54f;
 }
 
 .header-link {
@@ -93,10 +92,10 @@ img {
   background-size: cover;
 }
 
-.advantages,
+.advantages-title,
+.advantages-desc,
 .services,
-.search-hotel,
-.newsletter {
+.search-hotel {
   text-align: center;
 }
 
@@ -186,8 +185,13 @@ img {
   text-decoration: none;
 }
 
-.filter-form-control {
+.filter-form-label {
   line-height: 23px;
+}
+
+.filter-form-label-price {
+  line-height: 24px;
+  color: #000000;
 }
 
 .filter-form-input {
@@ -195,11 +199,6 @@ img {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-}
-
-.filter-form-control-price {
-  line-height: 24px;
-  color: #000000;
 }
 
 .filter-form-submit,
@@ -211,16 +210,20 @@ img {
   line-height: 20px;
 }
 
-.select-control option {
+.filter-form-submit,
+.filter-form-reset {
+  font-family: "PT Sans", sans-serif;
+}
+
+.filter-form-reset {
+  background: none;
+}
+
+.select-control {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-}
-
-.hotel-link,
-.pagination-link {
-  text-decoration: none;
 }
 
 .hotel-title {
@@ -229,8 +232,8 @@ img {
 
 .hotel-rating {
   color: #333333;
-  text-transform: uppercase;
   background-color: #f2f2f2;
+  text-transform: uppercase;
 }
 
 .pagination-link:not(.pagination-dots, .pagination-current) {
