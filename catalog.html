@@ -39,13 +39,13 @@
           </li>
         </ul>
 
-        <a class="header-link button" href="#">Хочу сюда!</a>
+        <a class="nav-button-link button" href="#">Хочу сюда!</a>
       </nav>
     </header>
 
-    <main class="main-catalog" data-test="main">
-      <div class="main-catalog-bg">
-        <h1 class="main-catalog-title">Гостиницы Седоны</h1>
+    <main class="main-inner main-container" data-test="main">
+      <div class="main-inner-bg">
+        <h1 class="main-inner-title">Гостиницы Седоны</h1>
 
         <ol class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -117,53 +117,58 @@
             <fieldset class="filter-form-group">
               <legend class="filter-form-title">Стоимость, ₽:</legend>
 
-              <label class="filter-form-label filter-form-label-price" for="price-min">от</label>
-              <input class="filter-form-input" type="number" name="price-min" id="price-min" value="0">
+              <div>
+                <label class="filter-form-label filter-form-label-price" for="price-min">от</label>
+                <input class="filter-form-input" type="number" name="price-min" id="price-min" value="0">
 
-              <label class="filter-form-label filter-form-label-price" for="price-max">до</label>
-              <input class="filter-form-input" type="number" name="price-max" id="price-max" value="9000">
-
+                <label class="filter-form-label filter-form-label-price" for="price-max">до</label>
+                <input class="filter-form-input" type="number" name="price-max" id="price-max" value="9000">
+              </div>
               <button class="filter-form-button" type="button"></button>
               <button class="filter-form-button" type="button"></button>
             </fieldset>
 
-            <button class="filter-form-submit button" type="submit">
-              Применить
-            </button>
-            <button class="filter-form-reset button" type="reset">
-              Сбросить
-            </button>
+            <div class="filter-form-buttons">
+              <button class="filter-form-submit button" type="submit">
+                Применить
+              </button>
+              <button class="filter-form-reset button" type="reset">
+                Сбросить
+              </button>
+            </div>
           </form>
         </section>
       </div>
 
       <section class="hotels" data-test="catalog">
-        <h2 class="hotels-title">Найдено гостиниц: 38</h2>
+        <div class="hotels-box">
+          <h2 class="hotels-title">Найдено гостиниц: 38</h2>
 
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Популярные</option>
-          <option value="rating">По рейтингу</option>
-        </select>
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Популярные</option>
+            <option value="rating">По рейтингу</option>
+          </select>
 
-        <ul class="view-list">
-          <li class="view-item">
-            <a class="view-button view-button-active" href="#">
-              <span class="visually-hidden">Показать карточки</span>
-            </a>
-          </li>
-          <li class="view-item">
-            <a class="view-button" href="#">
-              <span class="visually-hidden">Показать в виде слайд-шоу</span>
-            </a>
-          </li>
-          <li class="view-item">
-            <a class="view-button" href="#">
-              <span class="visually-hidden">Показать список</span>
-            </a>
-          </li>
-        </ul>
+          <ul class="view-list">
+            <li class="view-item">
+              <a class="view-button view-button-active" href="#">
+                <span class="visually-hidden">Показать карточки</span>
+              </a>
+            </li>
+            <li class="view-item">
+              <a class="view-button" href="#">
+                <span class="visually-hidden">Показать в виде слайд-шоу</span>
+              </a>
+            </li>
+            <li class="view-item">
+              <a class="view-button" href="#">
+                <span class="visually-hidden">Показать список</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <ul class="hotel-list">
           <li class="hotel-item">
@@ -266,7 +271,7 @@
         </ul>
       </section>
 
-      <section class="newsletter newsletter-catalog" data-test="subscribe">
+      <section class="newsletter newsletter-inner" data-test="subscribe">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
         <p class="newsletter-text">
           Только полезная информация и никакого спама,
