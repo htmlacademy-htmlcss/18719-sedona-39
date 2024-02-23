@@ -102,92 +102,13 @@ img {
   margin-right: 28px;
 }
 
-.nav-list,
-.nav-user {
-  display: flex;
-  list-style: none;
-  padding: 0;
-}
-
 .nav-list {
   margin-right: auto;
 }
 
-.nav-link {
-  padding: 0 16px;
-}
-
 .nav-user {
+  width: 88px;
   margin-right: 20px;
-}
-
-.nav-button-link {
-  padding: 0 34px;
-}
-
-.hero-img {
-  display: block;
-  margin: 0 auto;
-}
-
-.advantages-list,
-.services-list,
-.social-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.advantages-heading {
-  width: 651px;
-  margin: 0 auto;
-}
-
-.advantages-item:first-child,
-.advantages-item:last-child {
-  display: flex;
-}
-
-.advantages-item:last-child .advantages-box {
-  order: 1;
-}
-
-.advantages-item:not(:first-child, :last-child),
-.advantages-box,
-.services-item {
-  width: 400px;
-  padding: 0 85px;
-}
-
-.services-heading {
-  width: 505px;
-  margin: 0 auto;
-}
-
-.search-hotel-link {
-  padding: 0 50px;
-}
-
-.search-hotel-text {
-  width: 592px;
-  margin: 0 auto;
-}
-
-.newsletter {
-  padding: 0 285px;
-  text-align: center;
-}
-
-.newsletter-text {
-  width: 475px;
-  margin: 0 auto;
-}
-
-.newsletter-form {
-  display: flex;
-  justify-content: center;
 }
 
 .footer {
@@ -200,110 +121,16 @@ img {
   padding: 0 70px;
 }
 
-.breadcrumbs {
-  display: flex;
-  list-style: none;
-}
-
 .filter-form {
   display: flex;
-}
-
-.filter-form-group {
-  border: none;
-  padding: 0;
-  margin: 0;
-  margin-right: 70px;
-}
-
-.filter-form-group:nth-of-type(1) {
-  width: 155px;
-  margin-right: 70px;
-}
-
-.filter-form-group:nth-of-type(2) {
-  width: 151px;
-  margin-right: 140px;
-}
-
-.filter-form-group:nth-of-type(3) {
-  width: 288px;
-  margin-right: auto;
-}
-
-.filter-form-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .filter-form-buttons {
   max-width: 191px;
 }
 
-.filter-form-submit {
-  padding: 0 50px;
-}
-
-.filter-form-reset {
-  padding: 0 57px;
-}
-
 .hotels {
   padding: 0 70px;
-}
-
-.hotels-box {
-  display: flex;
-}
-
-.hotels-title {
-  margin-right: auto;
-}
-
-.select-control {
-  width: 292px;
-  margin-right: 70px;
-}
-
-.view-list {
-  width: 180px;
-  list-style: none;
-  outline: 1px solid red;
-}
-
-.hotel-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.hotel-item {
-  width: 340px;
-  padding: 0 20px;
-  border: 1px solid #e6e6e6;
-}
-
-.hotel-item:not(:nth-of-type(3n)) {
-  margin-right: 20px;
-}
-
-.pagination {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.pagination-item {
-  margin-right: 8px;
-}
-
-.pagination-link {
-  width: 60px;
-  text-align: center;
 }
 
 /* ==================================================== */
@@ -534,4 +361,10 @@ img {
 
 .newsletter-input {
   line-height: 24px;
+}
+
+.copyright-link {
+  width: 115px;
+  height: 33px;
+  background-image: url("../images/logo-htmlacademy.svg");
 }
