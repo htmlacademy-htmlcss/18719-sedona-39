@@ -238,10 +238,13 @@ body {
 }
 
 .search-hotel-title,
-.newsletter-title,
 .search-hotel-text,
 .newsletter-text {
   margin-bottom: 20px;
+}
+
+.newsletter-title {
+  margin-bottom: 25px;
 }
 
 .newsletter {
@@ -300,7 +303,7 @@ body {
 .hotels-box {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .hotels-title {
@@ -484,7 +487,7 @@ body {
 }
 
 .main-inner-bg {
-  padding: 99px 70px 70px;
+  padding: 95px 70px 70px;
   background-image: url("../images/bg-filter.jpg");
 }
 
