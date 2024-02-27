@@ -116,7 +116,7 @@ body {
 .nav-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: auto;
 }
 
@@ -157,7 +157,7 @@ body {
 
 .advantages-heading {
   max-width: 610px;
-  margin: 0 auto 30px;
+  margin: 0 auto 25px;
 }
 
 .advantages-list {
@@ -172,7 +172,7 @@ body {
 }
 
 .advantages-box {
-  padding: 102px 85px;
+  padding: 113px 85px 102px;
 }
 
 .advantages-item {
@@ -228,7 +228,7 @@ body {
 }
 
 .search-hotel {
-  padding: 116px 304px 95px;
+  padding: 120px 304px 90px;
 }
 
 .search-hotel-title,
@@ -279,7 +279,7 @@ body {
 
 .breadcrumbs {
   display: flex;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 .filter-form {
@@ -291,13 +291,13 @@ body {
 }
 
 .hotels {
-  padding: 70px 70px 0;
+  padding: 68px 70px 0;
 }
 
 .hotels-box {
   display: flex;
   align-items: center;
-  margin-bottom: 55px;
+  margin-bottom: 63px;
 }
 
 .hotels-title {
@@ -486,7 +486,7 @@ body {
 }
 
 .main-inner-title {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
