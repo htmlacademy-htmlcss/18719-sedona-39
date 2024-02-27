@@ -105,7 +105,7 @@ body {
 .nav {
   position: relative;
   display: flex;
-  padding: 0 70px;
+  padding: 0 70px 4px;
 }
 
 .nav-logo-link {
@@ -139,8 +139,8 @@ body {
 }
 
 .nav-button-link {
-  margin: 14px 0;
-  padding: 8px 34px;
+  margin: 22px 0;
+  margin-left: 80px;
 }
 
 .hero {
@@ -170,7 +170,7 @@ body {
 .advantages-box,
 .services-item {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-item:not(:first-child, :last-child) {
@@ -178,7 +178,7 @@ body {
 }
 
 .advantages-box {
-  padding: 102px inherit;
+  padding: 102px 85px;
 }
 
 .advantages-item:first-child,
@@ -209,7 +209,7 @@ body {
 }
 
 .advantages-title {
-  margin-bottom: 62px;
+  margin-bottom: 50px;
 }
 
 .services {
@@ -245,7 +245,7 @@ body {
 }
 
 .newsletter {
-  padding: 96px 0 104px;
+  padding: 120px 0 104px;
   text-align: center;
 }
 
@@ -294,7 +294,7 @@ body {
 }
 
 .hotels {
-  padding: 50px 70px 60px;
+  padding: 70px 70px 0;
 }
 
 .hotels-box {
@@ -484,12 +484,12 @@ body {
 }
 
 .main-inner-bg {
-  padding: 35px 70px;
+  padding: 99px 70px 70px;
   background-image: url("../images/bg-filter.jpg");
 }
 
 .main-inner-title {
-  margin-bottom: 8px;
+  margin-bottom: 25px;
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
