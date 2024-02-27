@@ -173,12 +173,9 @@ body {
   min-height: 385px;
 }
 
-.advantages-item:not(:first-child, :last-child) {
-  padding: 113px 85px;
-}
-
+.advantages-item:not(:first-child, :last-child),
 .advantages-box {
-  padding: 102px 85px;
+  padding: 113px 85px;
 }
 
 .advantages-item:first-child,
@@ -209,7 +206,7 @@ body {
 }
 
 .advantages-title {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .services {
@@ -234,7 +231,7 @@ body {
 }
 
 .search-hotel {
-  padding: 96px 304px;
+  padding: 116px 304px 96px;
 }
 
 .search-hotel-title,
@@ -303,7 +300,7 @@ body {
 .hotels-box {
   display: flex;
   align-items: center;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .hotels-title {
@@ -487,12 +484,12 @@ body {
 }
 
 .main-inner-bg {
-  padding: 95px 70px 70px;
+  padding: 75px 70px 70px;
   background-image: url("../images/bg-filter.jpg");
 }
 
 .main-inner-title {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
